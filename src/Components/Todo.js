@@ -13,7 +13,7 @@ const Todo = ({id, task, completed, removeTodo, toggleTodo, editTodo}) => {
         {isEditing ? <EditTodoForm editTodo={editTodo} task={task} id={id} toggleEdit={setIsEditing}/> : 
         <>
         <Checkbox checked={completed} onClick={()=>toggleTodo(id)} style={{color: Colors.secondary}}/>
-        <ListItemText style={{textDecoration: completed ? 'line-through': 'none'}} primary={<Typography variant="h6" style={{ color: Colors.primary, fontFamily: Fonts.medium}}>{task}</Typography>}/>
+        <ListItemText style={{textDecoration: completed ? 'line-through': 'none'}} primary={<Typography style={{ color: Colors.primary, fontFamily: Fonts.medium}}>{task}</Typography>}/>
         <ListItemSecondaryAction>
             <IconButton onClick={setIsEditing} style={{color: Colors.primary}} >
                 <EditIcon/>
