@@ -6,7 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import TodoItem from './TodoItem';
 import TodoForm from './TodoForm';
-import uuid from 'uuid/v4';
+import uuid from 'uuid';
 import Fonts from '../Constants/Fonts';
 import Colors from '../Constants/Colors';
 
