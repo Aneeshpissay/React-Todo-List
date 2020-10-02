@@ -10,7 +10,7 @@ const TodoItem = ({todos, removeTodo, toggleTodo, editTodo}) => {
                     return (
                         <>
                             <Todo key={todo.id} {...todo} removeTodo={removeTodo} toggleTodo={toggleTodo} editTodo={editTodo} />
-                            {i < todo.length && <Divider />}
+                            {i < todo.length - 1 && <Divider />}
                         </>
                     )
                 })}
