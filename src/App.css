@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Quicksand Bold';
+    font-style: normal;
+    src: local('Quicksand Bold'), url('./Fonts/Quicksand-Bold.ttf') format('ttf');
+  }
+  
+  @font-face {
+    font-family: 'Quicksand Light';
+    font-style: normal;
+    src: local('Quicksand Light'), url('./Fonts/Quicksand-Light.ttf') format('ttf');
+  }
+  
+  @font-face {
+    font-family: 'Quicksand Medium';
+    font-style: normal;
+    src: local('Quicksand Medium'), url('./Fonts/Quicksand-Medium.ttf') format('ttf');
+  }
+  
+  @font-face {
+    font-family: 'Quicksand Regular';
+    font-style: normal;
+    src: local('Quicksand Regular'), url('./Fonts/Quicksand-Regular.ttf') format('ttf');
+  }
+  
+  @font-face {
+    font-family: 'Quicksand Semi Bold';
+    font-style: normal;
+    src: local('Quicksand Semi Bold'), url('./Fonts/Quicksand-SemiBold.ttf') format('ttf');
+  }
+  
