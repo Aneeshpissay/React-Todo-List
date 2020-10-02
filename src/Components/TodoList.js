@@ -6,7 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import TodoItem from './TodoItem';
 import TodoForm from './TodoForm';
-import uuid from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import Fonts from '../Constants/Fonts';
 import Colors from '../Constants/Colors';
 
@@ -28,7 +28,7 @@ const TodoList = () => {
     },[todos])
     const classes = useStyles();
     const addTodo = (task)=>{
-        setTodos([...todos, {id: uuid(), task: task, completed: false}])
+        setTodos([...todos, {id: uuidv4(), task: task, completed: false}])
     }
     const removeTodo = (todoId)=>{
         const updatedTodos = todos.filter(todo=>todo.id!==todoId);
